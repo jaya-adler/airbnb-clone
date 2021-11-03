@@ -1,0 +1,24 @@
+
+
+.live__detail > img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 20vw;
+    height: 20vw;
+
+}
+
+.live__detail > h4 {
+    font-size: 16px;
+}
+
+.livecard{
+    margin-right: 20px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.livecard:hover{
+    transform: scale(1.08);
+}
+

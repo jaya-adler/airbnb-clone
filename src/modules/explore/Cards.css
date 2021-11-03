@@ -1,0 +1,28 @@
+.cards{
+    padding: 5px;
+    margin-right: 50px;
+    cursor: pointer;
+    min-width: 20vw;
+}
+
+.places{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.places > img {
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 8vw;
+    height: 8vw;
+}
+
+@media screen and (max-width: 740px) {
+  .places__content > h3 {
+        font-size: smaller;
+  }
+  .places__content > p{
+    font-size: smaller;
+  }
+  }

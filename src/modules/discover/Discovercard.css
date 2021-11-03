@@ -1,0 +1,22 @@
+.discovercard{
+    margin-right: 20px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.discovercard:hover{
+    transform: scale(1.08);
+}
+.discover__detail > img {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 20vw;
+    height: 20vw;
+}
+.discover__detail > h4{
+    margin-bottom: 5px;
+}
+
+.discover__detail > p{
+    margin-bottom: 5px;
+}

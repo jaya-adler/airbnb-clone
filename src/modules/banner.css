@@ -1,0 +1,51 @@
+.banner{
+    height: 25vw;
+    width: 80vw;
+    background: url(https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg?im_w=2560);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 5px;
+
+}
+
+
+.banner__info{
+color: white;
+padding-left: 50px;
+padding-top: 5%;
+display: inline-block;  
+}
+
+.banner__info > h1 {
+    margin-bottom: 5%;
+    }
+.banner__info > p {
+    margin-bottom: 6%;
+}
+.banner__info > button:hover{
+    background-color: white;
+    color: black;
+    border: none;
+
+}
+
+@media screen and (max-width: 740px) {
+    .banner__info > h1 {
+        font-size: smaller;
+        }
+        .banner__info > p {
+            font-size: smaller;
+            }
+
+        .banner__info > button{
+            width: 20vw;
+            height: 5vw;
+            }
+
+            .banner__info > button > span {
+                font-size: smaller;
+                }
+  }

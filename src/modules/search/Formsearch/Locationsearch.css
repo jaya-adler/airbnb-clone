@@ -1,0 +1,42 @@
+.locationinput{
+    height: fit-content;
+    cursor: pointer;
+    background-color: transparent;
+    flex-grow: 1;
+    
+}
+
+.location__btn:hover{
+    box-shadow: 0 5px 10px;
+    color: gray;
+}
+
+ .location__btn {
+  border: 1px solid lightgray;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: white;
+ 
+
+}
+
+.location__header{
+ padding-left: 10%;
+}
+.location__inputtxt{
+ padding-left: 10%;
+ 
+}
+.location__header  > h3 {
+    text-transform: none;
+    line-height: 1.5em;
+    font-size: 16px;
+}
+.location__inputtxt > input{
+    outline-style: none;
+    border: none;
+    border-color: lightgray;
+    width: 85%;
+
+}

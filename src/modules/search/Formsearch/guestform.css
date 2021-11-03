@@ -1,0 +1,11 @@
+.guestform{
+     padding: 10px;
+
+}
+.guestform > :first-child{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.guestform > :nth-child(2){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}

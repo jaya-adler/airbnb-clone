@@ -1,0 +1,20 @@
+.explore{
+    width: 100%;
+    padding-left:  30px;
+    padding-right: 5px;
+    margin-top: 20px;
+    overflow-x: scroll;
+}
+.exp__header__title{
+    line-height: 52px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.explore__section{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+
+

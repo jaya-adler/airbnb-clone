@@ -1,0 +1,145 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    width: 100%;
+    z-index: 5000;
+    box-shadow: 0 0 1rem lightgray;
+}
+
+
+.header__icon{
+    object-fit: contain;
+    padding-left: 40px;
+    height: 40px;
+}
+
+.header__center__res{
+    display: none;
+    flex: 1;
+    color: gray;
+    padding-left: 10vw;
+}
+.header__center{
+    display: flex;
+    align-items: center;
+    color: gray;
+    max-width: fit-content;
+    padding: 10px;
+
+}
+
+ .header__center > button {
+    border-radius: 100px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    min-width: 25vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.header__center > button > .search {
+    color: gray;
+    padding: 5px;
+    text-transform:none;
+    float: left;
+    flex: 1;    
+}
+.header__center > button > svg {
+    color: white;
+    border-radius: 999px;
+    background-color: #f8585e;;
+    padding: 0.2em;
+    font-weight: bold;
+    
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+    background: white;
+    flex-direction: row;
+    color: gray;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    justify-content: left;
+    padding: 5px;
+}
+
+.search__form{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 740px) {
+    .header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        background-color: white;
+        z-index: 5000;
+        box-shadow: 0 0 1rem lightgray;
+    }
+
+    .header__icon{
+        object-fit: contain;
+        padding-left: 3%;
+        height: 5vw;
+    }
+    
+    .header__center > button > svg{
+        display: none;
+    }
+  .header__center{
+      flex: 1;
+  }
+    .header__right{
+        padding-right: 0;
+        width: fit-content;
+        padding-right: 5px;
+    }
+    .header__right > p{
+        display: none;
+    }
+    .header__right > svg{
+        display: none;
+    }
+
+
+    .header__center > button > .search {
+        padding: 5px;
+        text-transform:none;
+        float: left;   
+    }
+
+    .header__center > button {
+        padding: 5px;
+        border: 1px solid lightgray;
+        min-width: 45vw;
+        
+    }
+
+  }
+
+
+  
+
+  @media screen and (max-width: 480px) {
+        .header__center{
+            display: none;
+        }
+        .header__center__res{
+            display: flex;
+        }
+  }

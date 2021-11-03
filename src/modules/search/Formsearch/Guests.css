@@ -1,0 +1,46 @@
+.guests{
+    width: 250px;
+    height: fit-content;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.guest__btn:hover{
+    box-shadow: 0 5px 10px;
+    color: gray;
+}
+.guest__btn{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    border-radius: 100px;
+    align-items: center;
+    background-color: white;
+}
+
+.guest__left {
+padding-left: 2px;
+flex: 1;
+}
+
+.guest__left > h4 {
+    color: black ;
+}
+.guest__left > p {
+    color: #717171 ;
+}
+.guest__right{
+    padding-right: 2px;
+}
+
+.guest__right > .search__btn >button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    transition: opacity 1.25s ease 0s;
+    color: white;
+    background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%);
+}
