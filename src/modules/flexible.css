@@ -14,7 +14,11 @@
     align-items: center;
     min-height: 50%;
     font-weight: bold;
+}
 
+.homepage__info > p {
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .homepage__info > a{
@@ -28,10 +32,9 @@
     align-items: center;
     font-size: large;
     font-weight: bold;
-    color: white;
+    color:purple;
     padding: 5% 7%;
-    background: linear-gradient(
-        181deg, #295d4e, #f6e295);
+    background: white;
 }
 
 
@@ -55,7 +58,11 @@
 
     .homepage__info{
         padding: 15%;
+        padding-top: 20%;
         min-height: 25%
     
+    }
+    .homepage__info > p{
+        font-size: 12px;
     }
   }

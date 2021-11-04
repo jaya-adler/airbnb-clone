@@ -20,7 +20,7 @@ function Header() {
         history.push('/');
     }
     return (
-        <div style={{display:'flex',flexDirection:'column',justifyContent:'center'}}>
+        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',position:'sticky',width:'100%'}}>
             <div className="header">
             <div>
             <img  onClick={handleclick} className="header__icon"
@@ -36,7 +36,7 @@ function Header() {
              </div>
             <div className="header__center">
                 <Button onClick={(e) => setSearchclick(!searchclick)} variant="outlined"> 
-                <div className="search"><span>Start your search</span></div>
+                <div className="search"><span>Where are you going?</span></div>
                 <SearchIcon />
                 </Button>
              </div>

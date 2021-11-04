@@ -6,24 +6,24 @@
     background-size: cover;
     border-radius: 20px;
     margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 5px;
+    margin-left: 16px;
+    margin-right: 16px;
 
 }
 
 
 .banner__info{
 color: white;
-padding-left: 50px;
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+justify-content: space-between;
+padding-left: 10%;
 padding-top: 5%;
-display: inline-block;  
 }
 
-.banner__info > h1 {
-    margin-bottom: 5%;
-    }
-.banner__info > p {
-    margin-bottom: 6%;
+.banner__info > p{
+    margin-bottom: 2%;
 }
 .banner__info > button:hover{
     background-color: white;
@@ -33,19 +33,24 @@ display: inline-block;
 }
 
 @media screen and (max-width: 740px) {
+
+    .banner{
+        width: 90%;
+        height: 200px;
+    }
     .banner__info > h1 {
-        font-size: smaller;
+        font-size: medium;
         }
-        .banner__info > p {
+    .banner__info > p {
             font-size: smaller;
             }
 
-        .banner__info > button{
+    .banner__info > button{
             width: 20vw;
             height: 5vw;
             }
 
-            .banner__info > button > span {
+    .banner__info > button > span {
                 font-size: smaller;
                 }
   }

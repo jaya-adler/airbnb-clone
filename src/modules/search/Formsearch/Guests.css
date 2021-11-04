@@ -1,5 +1,5 @@
 .guests{
-    width: 250px;
+    width: 19.5vw;
     height: fit-content;
     cursor: pointer;
     background-color: transparent;
@@ -25,6 +25,8 @@ flex: 1;
 
 .guest__left > h4 {
     color: black ;
+    font-size: 1.5vw;
+    margin-bottom: 0;
 }
 .guest__left > p {
     color: #717171 ;
@@ -44,3 +46,8 @@ flex: 1;
     color: white;
     background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%);
 }
+
+
+@media screen and (max-width: 480px) {
+   
+  }

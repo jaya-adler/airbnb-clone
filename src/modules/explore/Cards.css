@@ -2,9 +2,16 @@
     padding: 5px;
     margin-right: 50px;
     cursor: pointer;
-    min-width: 20vw;
+    min-width: 200px;
 }
 
+.places__content > h3 {
+  font-size: medium;
+  margin-bottom: 0;
+}
+.places__content > p{
+font-size: medium;
+}
 .places{
     display: flex;
     flex-direction: row;
@@ -14,13 +21,13 @@
 .places > img {
     margin-right: 10px;
     border-radius: 5px;
-    width: 8vw;
-    height: 8vw;
+    width: 72px;
+    height: 72px;
 }
 
 @media screen and (max-width: 740px) {
   .places__content > h3 {
-        font-size: smaller;
+      font-size: smaller;
   }
   .places__content > p{
     font-size: smaller;

@@ -5,6 +5,9 @@
     margin-top: 20px;
     overflow-x: scroll;
 }
+.explore::-webkit-scrollbar{
+    display: none;
+}
 .exp__header__title{
     line-height: 52px;
     font-weight: 700;
@@ -13,7 +16,7 @@
 .explore__section{
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding: 5px;
 }
 
 

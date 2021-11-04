@@ -2,10 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
     background-color: white;
     width: 100%;
-    z-index: 5000;
     box-shadow: 0 0 1rem lightgray;
 }
 
@@ -26,27 +24,28 @@
     display: flex;
     align-items: center;
     color: gray;
-    max-width: fit-content;
-    padding: 10px;
+    width: 100%;
+    padding: 0.5em
 
 }
 
  .header__center > button {
     border-radius: 100px;
-    padding: 5px;
     border: 1px solid lightgray;
     min-width: 25vw;
     display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    width: 100%;
+}
+
+.header__center > button:hover {
+    border: 0;
 }
 
 .header__center > button > .search {
-    color: gray;
-    padding: 5px;
+    color: black;
     text-transform:none;
-    float: left;
-    flex: 1;    
+    width: fit-content;
+    flex-grow: 1;
 }
 .header__center > button > svg {
     color: white;
@@ -54,7 +53,6 @@
     background-color: #f8585e;;
     padding: 0.2em;
     font-weight: bold;
-    
 }
 .header__right{
     display: flex;
@@ -78,18 +76,18 @@
 .search__form{
     display: flex;
     align-items: center;
+    background-color: white;
 }
 
 @media screen and (max-width: 740px) {
     .header{
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: sticky;
         background-color: white;
-        z-index: 5000;
+        top:0;
         box-shadow: 0 0 1rem lightgray;
+    }
+    .header > :first-child{
+        display: none;
     }
 
     .header__icon{
@@ -98,16 +96,19 @@
         height: 5vw;
     }
     
-    .header__center > button > svg{
-        display: none;
-    }
+  .header > :nth-child(2){
+      width: 100%;
+  }
   .header__center{
-      flex: 1;
+      width:100%;
+      padding-left: 10%;
+      padding-right: 10%;
   }
     .header__right{
         padding-right: 0;
         width: fit-content;
         padding-right: 5px;
+        display: none;
     }
     .header__right > p{
         display: none;
@@ -116,30 +117,14 @@
         display: none;
     }
 
-
-    .header__center > button > .search {
-        padding: 5px;
-        text-transform:none;
-        float: left;   
-    }
-
     .header__center > button {
         padding: 5px;
-        border: 1px solid lightgray;
+        border: 0;
         min-width: 45vw;
+        background-color: rgb(247,247, 247);
         
     }
 
   }
 
 
-  
-
-  @media screen and (max-width: 480px) {
-        .header__center{
-            display: none;
-        }
-        .header__center__res{
-            display: flex;
-        }
-  }
