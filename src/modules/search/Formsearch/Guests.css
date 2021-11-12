@@ -1,8 +1,9 @@
 .guests{
-    width: 19.5vw;
+    min-width: 200px;
     height: fit-content;
     cursor: pointer;
     background-color: transparent;
+    
 }
 
 .guest__btn:hover{
@@ -10,6 +11,7 @@
     color: gray;
 }
 .guest__btn{
+    padding: 5px;
     border: 1px solid lightgray;
     display: flex;
     flex-direction: row;
@@ -19,24 +21,27 @@
 }
 
 .guest__left {
-padding-left: 2px;
+padding: 2px;
 flex: 1;
 }
 
 .guest__left > h4 {
+    display: none;
     color: black ;
     font-size: 1.5vw;
     margin-bottom: 0;
 }
 .guest__left > p {
     color: #717171 ;
+    font-size: medium;
 }
 .guest__right{
-    padding-right: 2px;
+    padding: 2px;
 }
 
-.guest__right > .search__btn >button {
+ .search__btn >button {
     display: flex;
+    z-index: 5;
     flex-direction: row;
     align-items: center;
     border-radius: 50px;

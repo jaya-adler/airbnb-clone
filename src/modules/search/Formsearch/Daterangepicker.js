@@ -24,9 +24,9 @@ export default function MinMaxDateRangePicker() {
         }}
         renderInput={(startProps, endProps) => (
           <React.Fragment>
-            <TextField sx={{maxWidth:"30vw"}} {...startProps} />
+            <TextField sx={{maxHeight:'40vw'}} {...startProps} />
             <Box sx={{ mx: 2 }}> to </Box>
-            <TextField sx={{maxWidth:"30vw"}} {...endProps} />
+            <TextField  sx={{maxHeight:'40vw'}} {...endProps} />
           </React.Fragment>
         )}
       />

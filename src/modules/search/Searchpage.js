@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Footer'
 import Header from '../Header'
 import Infocard from './Formsearch/Infocard';
+import faker from 'faker'
 import './Searchpage.css'
 
 function Filter_comp(props){
@@ -43,11 +44,11 @@ function Searchpage() {
                 </div>
             </div>
             <div className="main__left__content">
-                <Infocard/>
-                <Infocard/>
-                <Infocard/>
-                <Infocard/>
-                <Infocard/>
+                <Infocard img={faker.image.transport()} name={faker.name.firstName()} star={Math.floor((Math.random()*10)+1)} price={Math.floor((Math.random()*1000)+1)} total_nights={Math.floor((Math.random()*15)+1)}/>
+                <Infocard img={faker.image.transport()} name={faker.name.firstName()} star={Math.floor((Math.random()*10)+1)} price={Math.floor((Math.random()*1000)+1)} total_nights={Math.floor((Math.random()*15)+1)}/>
+                <Infocard img={faker.image.transport()} name={faker.name.firstName()} star={Math.floor((Math.random()*10)+1)} price={Math.floor((Math.random()*1000)+1)} total_nights={Math.floor((Math.random()*15)+1)}/>
+                <Infocard img={faker.image.transport()} name={faker.name.firstName()} star={Math.floor((Math.random()*10)+1)} price={Math.floor((Math.random()*1000)+1)} total_nights={Math.floor((Math.random()*15)+1)}/>
+                <Infocard img={faker.image.transport()} name={faker.name.firstName()} star={Math.floor((Math.random()*10)+1)} price={Math.floor((Math.random()*1000)+1)} total_nights={Math.floor((Math.random()*15)+1)}/>
             </div>
             </section>
             </main>

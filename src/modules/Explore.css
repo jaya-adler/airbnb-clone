@@ -3,11 +3,9 @@
     padding-left:  30px;
     padding-right: 5px;
     margin-top: 20px;
-    overflow-x: scroll;
+ 
 }
-.explore::-webkit-scrollbar{
-    display: none;
-}
+
 .exp__header__title{
     line-height: 52px;
     font-weight: 700;
@@ -17,6 +15,11 @@
     display: flex;
     flex-direction: row;
     padding: 5px;
+    overflow-x: scroll;
+}
+
+.explore__section::-webkit-scrollbar{
+    display: none;
 }
 
 

@@ -5,7 +5,7 @@
     width: 100%;
     z-index: 1;
     background-color: white;
-    box-shadow: 0 0 1rem lightgray;
+    box-shadow: 0 0 1rem lightgray; 
 }
 .header{
     box-shadow: none;
@@ -17,11 +17,15 @@
 .main__left_head > p{
     padding-top: 1vw;
     padding-bottom: 1vw;
-    font-size: 1.25vw;
+    font-size: 16px;
 }
 
 .main__left{
     width: 60%;
+}
+
+.main__left__content{
+    width: 100%;
 }
 .main__left__content > :first-child{
     border-top: 1px solid rgb(235, 235, 235);
@@ -50,16 +54,20 @@
 
 .filter__btn{
     display: none;
+    position: fixed;
     border:1px solid rgba(235,235,235);
-    width: 60px;
+    width: 40px;
     height: 30px;
-    border-radius: 999px;
+    border-radius: 1000px;
     align-items: center;
-    width: 5vw;
-    margin-left: 95%;
+    background-color: black;
+    color: white;
+    right: 5%;
+    top:80%;
 }
 .filter__btn:hover{
-    border:1px solid black
+    color: black;
+    background-color: white;
 }
 .filter__btn > svg{
     flex-grow: 1;
@@ -74,6 +82,11 @@
    .filter__btn{
        display: flex;
    }
+   .main__left{
+    width: 100%;
+}
+
+
   }
 
 .filters{

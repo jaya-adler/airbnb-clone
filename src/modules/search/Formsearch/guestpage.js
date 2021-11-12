@@ -21,12 +21,12 @@ export default function SimpleFade() {
   };
 
   return (
-    <Box sx={{ height: 'auto' , height:'auto',flexGrow:'1'}}>
+    <Box sx={{ height: 'auto' , height:'auto'}}>
       <FormControlLabel
         control={<Button onClick={handleChange} style={{textTransform:'none'}}><Guests /></Button>}
         label=""
       />
-      <Box sx={{ display: 'flex', position:'absolute', zIndex:'1',padding:'10px',left:'69.5%'}}>
+      <Box sx={{ display: 'flex', position:'absolute', zIndex:'1',padding:'10px',right:'15%'}}>
         <Fade in={checked}>{icon}</Fade>
       </Box>
     </Box>

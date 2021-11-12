@@ -3,16 +3,16 @@
     margin: 0.5vw;
     padding: 0.5vw;
 }
-.guest__left{
+.guest__comp__left{
     margin: 5px;
     padding: 5px;
-
+    flex-grow: 1;
 }
 
-.guest__left > p{
-    font-size:smaller;
+.guest__comp__left > p{
+    font-size:medium;
 }
-.guest__right{
+.guest__comp__right{
     display: flex;
     align-items: center;
     margin: 5px;
@@ -20,11 +20,12 @@
     justify-content: space-between;
 }
 
-.guest__right > button {
+.guest__comp__right > button {
     background-color: transparent;
     border:1px solid rgba(128, 128, 128, 0.589);
     border-radius: 999px;
-    width: 30px;
+    width: 50px;
+    height: 50px;
     margin: 5px;
     padding: 5px;
     color: rgba(0, 0, 0, 0.644);

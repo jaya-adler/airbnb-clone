@@ -1,8 +1,8 @@
 .locationinput{
+    min-width: 230px;
     height: fit-content;
     cursor: pointer;
     background-color: transparent;
-    flex-grow: 1;
     
 }
 
@@ -31,7 +31,7 @@
 .location__header  > h3 {
     text-transform: none;
     line-height: 1.5em;
-    font-size: 1.25vw;
+    font-size: 16px;
     margin-bottom: 0rem;
 }
 .location__inputtxt > input{
@@ -39,6 +39,6 @@
     border: none;
     border-color: lightgray;
     width: 85%;
-    font-size: 1.25vw;
+    font-size: 16px;
 
 }

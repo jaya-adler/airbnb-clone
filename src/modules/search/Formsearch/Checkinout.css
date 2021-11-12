@@ -1,5 +1,6 @@
 .checkinout{
-    flex-grow: 1;
+    max-width: 350px;
+    min-width: 250px;
 }
 .checkinout__picker:first-child >  :first-child > :first-child > :last-child{
 border-radius: 100px;

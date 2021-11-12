@@ -20,7 +20,7 @@ function Locationsearch() {
             </div>
         </div>
         </div>
-    )
+    ) 
 }
 
 export default Locationsearch
